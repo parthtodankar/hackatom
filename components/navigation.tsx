@@ -24,6 +24,9 @@ export default function Navigation() {
             <Link href="/explore" className="text-white hover:text-purple-300 transition-colors">
               Explore
             </Link>
+            <Link href="/quiz" className="text-white hover:text-purple-300 transition-colors">
+              Quiz
+            </Link>
             <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
               About
             </Link>
@@ -53,6 +56,13 @@ export default function Navigation() {
                 onClick={() => setIsOpen(false)}
               >
                 Explore
+              </Link>
+              <Link 
+                href="/quiz" 
+                className="text-white hover:text-purple-300 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Quiz
               </Link>
               <Link
                 href="/about"
