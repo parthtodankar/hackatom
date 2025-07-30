@@ -133,9 +133,9 @@ export default function AdultQuiz() {
 
   const getScoreMessage = () => {
     const percentage = (score / questions.length) * 100
-    if (percentage === 100) return "🏆 Outstanding! You have excellent knowledge of space science!"
-    if (percentage >= 67) return "🌟 Great work! You have a solid understanding of astronomy!"
-    if (percentage >= 33) return "🚀 Good effort! Consider exploring more about space science!"
+    if (percentage === 100) return "🏆 Outstanding! You have excellent knowledge of nuclear science!"
+    if (percentage >= 67) return "🌟 Great work! You have a solid understanding of nuclear science!"
+    if (percentage >= 33) return "🚀 Good effort! Consider exploring more about nuclear science!"
     return "🌌 Keep learning! The universe has many fascinating secrets to discover!"
   }
 

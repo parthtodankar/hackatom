@@ -120,9 +120,9 @@ export default function KidsQuiz() {
 
   const getScoreMessage = () => {
     const percentage = (score / questions.length) * 100
-    if (percentage === 100) return "🌟 Perfect! You're a space expert!"
-    if (percentage >= 80) return "🚀 Excellent! You know a lot about space!"
-    if (percentage >= 60) return "⭐ Good job! Keep learning about space!"
+    if (percentage === 100) return "🌟 Perfect! You're a nuclear expert!"
+    if (percentage >= 80) return "🚀 Excellent! You know a lot about Nuclear Science!"
+    if (percentage >= 60) return "⭐ Good job! Keep learning about Nuclear Science!"
     return "🌙 Nice try! Keep exploring to learn more!"
   }
 
