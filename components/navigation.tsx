@@ -27,6 +27,26 @@ export default function Navigation() {
             <Link href="/quiz" className="text-white hover:text-purple-300 transition-colors">
               Quiz
             </Link>
+            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
+              Buy
+            </Link>
+            <Link href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2" className="text-white hover:text-purple-300 transition-colors">
+              Chatbot
+            </Link>
+            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
+              Buy
+            </Link>
+            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
+              Learn
+            </Link>
+            <Link
+              href="https://isotope-puzzle.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-300 transition-colors"
+            >
+              Game
+            </Link>
             <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
               About
             </Link>
@@ -51,7 +71,7 @@ export default function Navigation() {
                 Home
               </Link>
               <Link
-                href="/explore"
+                href="/blog"
                 className="block px-3 py-2 text-white hover:text-purple-300"
                 onClick={() => setIsOpen(false)}
               >

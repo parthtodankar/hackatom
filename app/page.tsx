@@ -21,7 +21,7 @@ export default function HomePage() {
           <Badge className="mb-4 bg-purple-600/20 text-purple-300 border-purple-500/30">🚀 Team [Matrix] presents</Badge>
           <h1 className="text-5xl md:text-6.9xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
             {/* Isotopes Inspire Innovation. */}
-            One Isotope can change a life.
+            One Isotope can change your life.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
             Discover the economic power and impact of nuclear isotopes beyond energy – learn and explore the future of innovation.
@@ -47,7 +47,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Powerful Features</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Everything you need to explore, discover, and conquer the cosmos
+              Everything you need to explore, discover, and conquer the atom
             </p>
           </div>
 
@@ -55,9 +55,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <Rocket className="w-12 h-12 text-purple-400 mb-4" />
-                <CardTitle className="text-white">Advanced Propulsion</CardTitle>
+                <CardTitle className="text-white">Personalized Learning Experience</CardTitle>
                 <CardDescription className="text-gray-400">
-                  State-of-the-art propulsion systems for faster-than-light travel
+                  Tailored content based on user interests
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -65,9 +65,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <Shield className="w-12 h-12 text-blue-400 mb-4" />
-                <CardTitle className="text-white">Quantum Shields</CardTitle>
+                <CardTitle className="text-white">Security & Compliance</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Protect your missions with quantum-enhanced defensive systems
+                  Adherence to nuclear education standards
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -75,9 +75,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <Zap className="w-12 h-12 text-yellow-400 mb-4" />
-                <CardTitle className="text-white">Energy Cores</CardTitle>
+                <CardTitle className="text-white">AI-Powered Features</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Unlimited energy from advanced fusion technology
+                  Chatbot for answering nuclear science questions
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -85,9 +85,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <Globe className="w-12 h-12 text-green-400 mb-4" />
-                <CardTitle className="text-white">Planet Mapping</CardTitle>
+                <CardTitle className="text-white">Mobile-First Design</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Detailed mapping and analysis of distant worlds
+                  Seamless experience across all devices
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -95,9 +95,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <Star className="w-12 h-12 text-orange-400 mb-4" />
-                <CardTitle className="text-white">Star Navigation</CardTitle>
+                <CardTitle className="text-white">Gamification Elements</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Precise navigation using stellar positioning systems
+                  Compare knowledge with other learners
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -105,9 +105,9 @@ export default function HomePage() {
             <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
               <CardHeader>
                 <CheckCircle className="w-12 h-12 text-purple-400 mb-4" />
-                <CardTitle className="text-white">Mission Control</CardTitle>
+                <CardTitle className="text-white">Interactive Data Visualization</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Complete mission planning and execution platform
+                  Real-time charts of isotope market trends
                 </CardDescription>
               </CardHeader>
             </Card>
