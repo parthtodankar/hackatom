@@ -18,12 +18,13 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <Badge className="mb-4 bg-purple-600/20 text-purple-300 border-purple-500/30">🚀 Now in Beta</Badge>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
-            Explore the Universe
+          <Badge className="mb-4 bg-purple-600/20 text-purple-300 border-purple-500/30">🚀 Team [Matrix] presents</Badge>
+          <h1 className="text-5xl md:text-6.9xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            {/* Isotopes Inspire Innovation. */}
+            One Isotope can change a life.
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
-            Discover infinite possibilities with our cutting-edge space exploration platform. Journey beyond the stars.
+            Discover the economic power and impact of nuclear isotopes beyond energy – learn and explore the future of innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
@@ -222,9 +223,9 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-gray-800">
         <div className="container mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Cosmos</h3>
-          <p className="text-gray-400 mb-4">Exploring the universe, one planet at a time.</p>
-          <p className="text-gray-500 text-sm">© 2024 Cosmos. All rights reserved.</p>
+          <h3 className="text-2xl font-bold mb-4">Nuclea</h3>
+          <p className="text-gray-400 mb-4">Isotopes Inspire Innovation.</p>
+          <p className="text-gray-500 text-sm"> Made with  🤍  by team [Matrix]</p>
         </div>
       </footer>
     </div>

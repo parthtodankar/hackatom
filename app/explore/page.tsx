@@ -208,9 +208,9 @@ export default function ExplorePage() {
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-gray-800">
         <div className="container mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Cosmos</h3>
-          <p className="text-gray-400 mb-4">Exploring the universe, one planet at a time.</p>
-          <p className="text-gray-500 text-sm">© 2024 Cosmos. All rights reserved.</p>
+          <h3 className="text-2xl font-bold mb-4">Nuclea</h3>
+          <p className="text-gray-400 mb-4">One Isotope can change a life.</p>
+          <p className="text-gray-500 text-sm">Made with 🤍 by team [Matrix]</p>
         </div>
       </footer>
     </div>

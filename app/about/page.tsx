@@ -7,29 +7,53 @@ import Image from "next/image"
 export default function AboutPage() {
   const teamMembers = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Chief Space Officer",
+      name: "Parth Todankar",
+      role: "Computer Science",
       bio: "Former NASA astronaut with 15 years of space exploration experience.",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Lead Engineer",
+      name: "Akbarkhujaeva Diyorakhon",
+      role: "Economics and Business",
       bio: "Quantum propulsion specialist and rocket science innovator.",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Dr. Aisha Patel",
-      role: "Research Director",
+      name: "Nazik Samarova",
+      role: "Food Biotechnology",
       bio: "Astrophysicist specializing in exoplanet discovery and analysis.",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "James Kim",
-      role: "Mission Control Lead",
+      name: "Amey Shete",
+      role: "Computer Science",
       bio: "Expert in space navigation systems and mission planning.",
       image: "/placeholder.svg?height=300&width=300",
     },
+     {
+      name: "Mandeep Singh",
+      role: "Computer Science",
+      bio: "Expert in space navigation systems and mission planning.",
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      name: "Ulukbek Kyzy Medina",
+      role: "Food Biotechnology",
+      bio: "Expert in space navigation systems and mission planning.",
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      name: "Zokirova Dilsuz",
+      role: "Economics and Business",
+      bio: "Expert in space navigation systems and mission planning.",
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      name: "Khushi Thakur",
+      role: "Economics and Business",
+      bio: "Expert in space navigation systems and mission planning.",
+      image: "/placeholder.svg?height=300&width=300",
+    }
   ]
 
   return (
@@ -44,9 +68,7 @@ export default function AboutPage() {
             Our Mission
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We are pioneers in space exploration technology, dedicated to making the universe accessible to everyone.
-            Our team of experts combines cutting-edge science with innovative engineering to push the boundaries of
-            what's possible.
+            We are pioneers in the economic analysis and interactive education of non-energy nuclear technologies. Our mission is to make the world of isotope production and its vital applications in medicine, industry, agriculture, and beyond accessible to everyone. 
           </p>
         </div>
       </section>
@@ -58,23 +80,20 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-300 mb-4">
-                Founded in 2020, Cosmos began as a dream to democratize space exploration. What started as a small team
-                of passionate scientists and engineers has grown into a leading force in the space technology industry.
+                Founded in 2025, our journey began at the HackAtom hackathon in Ekaterinburg, organized by Rosatom, where a group of passionate scientists and engineers united over a shared vision: to make the benefits of nuclear technology accessible to everyone. What started as a small, driven team has grown into a leading force in promoting innovative applications of nuclear energy and isotope technology.
               </p>
               <p className="text-gray-300 mb-4">
-                We believe that the future of humanity lies among the stars, and we're committed to making that future
-                accessible to everyone. Through innovative technology and unwavering dedication, we're breaking down the
-                barriers that have traditionally limited space exploration to a select few.
+                We believe the future depends on understanding and harnessing nuclear science—not just for electricity, but for its powerful potential in medicine, industry, agriculture, and beyond. By developing interactive tools and educational resources, we’re breaking down barriers and empowering people worldwide to explore the economic and societal value of nuclear technologies.
               </p>
               <p className="text-gray-300">
-                Today, we're proud to serve explorers, researchers, and dreamers from around the world, providing them
-                with the tools they need to reach for the stars.
+                Today, we proudly support students, researchers, and innovators, helping them unlock new possibilities with nuclear science.
               </p>
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=600"
-                alt="Space exploration"
+                // src="/placeholder.svg?height=400&width=600"
+                src="/group_picture.svg?height=400&width=600"
+                alt="Group Picture"
                 width={600}
                 height={400}
                 className="rounded-lg"
