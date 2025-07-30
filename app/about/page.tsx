@@ -156,7 +156,7 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="text-white text-2xl">Innovation</CardTitle>
                 <CardDescription className="text-gray-400">
-                  We constantly push the boundaries of what's possible in space technology
+                  We constantly push the boundaries of what&apos;s possible in space technology
                 </CardDescription>
               </CardHeader>
             </Card>
