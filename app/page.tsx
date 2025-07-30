@@ -1,0 +1,232 @@
+import Navigation from "@/components/navigation"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Rocket, Shield, Zap, Globe, Star, CheckCircle } from "lucide-react"
+import Image from "next/image"
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen bg-black text-white">
+      <Navigation />
+
+      {/* Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image src="/hero-bg.jpg" alt="Space background" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
+          <Badge className="mb-4 bg-purple-600/20 text-purple-300 border-purple-500/30">🚀 Now in Beta</Badge>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+            Explore the Universe
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
+            Discover infinite possibilities with our cutting-edge space exploration platform. Journey beyond the stars.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
+              Start Exploring
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white/20 text-white hover:bg-white/10 px-8 py-3 bg-transparent"
+            >
+              Watch Demo
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Powerful Features</h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Everything you need to explore, discover, and conquer the cosmos
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <Rocket className="w-12 h-12 text-purple-400 mb-4" />
+                <CardTitle className="text-white">Advanced Propulsion</CardTitle>
+                <CardDescription className="text-gray-400">
+                  State-of-the-art propulsion systems for faster-than-light travel
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <Shield className="w-12 h-12 text-blue-400 mb-4" />
+                <CardTitle className="text-white">Quantum Shields</CardTitle>
+                <CardDescription className="text-gray-400">
+                  Protect your missions with quantum-enhanced defensive systems
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <Zap className="w-12 h-12 text-yellow-400 mb-4" />
+                <CardTitle className="text-white">Energy Cores</CardTitle>
+                <CardDescription className="text-gray-400">
+                  Unlimited energy from advanced fusion technology
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <Globe className="w-12 h-12 text-green-400 mb-4" />
+                <CardTitle className="text-white">Planet Mapping</CardTitle>
+                <CardDescription className="text-gray-400">
+                  Detailed mapping and analysis of distant worlds
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <Star className="w-12 h-12 text-orange-400 mb-4" />
+                <CardTitle className="text-white">Star Navigation</CardTitle>
+                <CardDescription className="text-gray-400">
+                  Precise navigation using stellar positioning systems
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <CheckCircle className="w-12 h-12 text-purple-400 mb-4" />
+                <CardTitle className="text-white">Mission Control</CardTitle>
+                <CardDescription className="text-gray-400">
+                  Complete mission planning and execution platform
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section className="py-20 px-4 bg-gray-900/30">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Choose Your Mission</h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Select the perfect plan for your space exploration needs
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <CardTitle className="text-white text-2xl">Explorer</CardTitle>
+                <CardDescription className="text-gray-400">Perfect for individual explorers</CardDescription>
+                <div className="text-4xl font-bold text-white mt-4">
+                  $29<span className="text-lg text-gray-400">/month</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Basic propulsion systems
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />5 planet scans per month
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Standard support
+                  </li>
+                </ul>
+                <Button className="w-full mt-6 bg-gray-700 hover:bg-gray-600 text-white">Start Exploring</Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-b from-purple-900/50 to-gray-900/50 border-purple-500 relative">
+              <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-purple-600 text-white">
+                Most Popular
+              </Badge>
+              <CardHeader>
+                <CardTitle className="text-white text-2xl">Commander</CardTitle>
+                <CardDescription className="text-gray-400">For serious space missions</CardDescription>
+                <div className="text-4xl font-bold text-white mt-4">
+                  $99<span className="text-lg text-gray-400">/month</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Advanced propulsion systems
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Unlimited planet scans
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Quantum shields included
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Priority support
+                  </li>
+                </ul>
+                <Button className="w-full mt-6 bg-purple-600 hover:bg-purple-700 text-white">Launch Mission</Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-500/50 transition-colors">
+              <CardHeader>
+                <CardTitle className="text-white text-2xl">Admiral</CardTitle>
+                <CardDescription className="text-gray-400">For galactic enterprises</CardDescription>
+                <div className="text-4xl font-bold text-white mt-4">
+                  $299<span className="text-lg text-gray-400">/month</span>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    All features included
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Fleet management
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    Custom integrations
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-400 mr-2" />
+                    24/7 dedicated support
+                  </li>
+                </ul>
+                <Button className="w-full mt-6 bg-gray-700 hover:bg-gray-600 text-white">Contact Sales</Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="py-12 px-4 border-t border-gray-800">
+        <div className="container mx-auto text-center">
+          <h3 className="text-2xl font-bold mb-4">Cosmos</h3>
+          <p className="text-gray-400 mb-4">Exploring the universe, one planet at a time.</p>
+          <p className="text-gray-500 text-sm">© 2024 Cosmos. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  )
+}
