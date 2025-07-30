@@ -30,13 +30,18 @@ export default function Navigation() {
             <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
               Buy
             </Link>
-            <Link href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2" className="text-white hover:text-purple-300 transition-colors">
+            <Link
+              href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-300 transition-colors"
+            >
               Chatbot
             </Link>
             <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
               Buy
             </Link>
-            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
+            <Link href="/learn" className="text-white hover:text-purple-300 transition-colors">
               Learn
             </Link>
             <Link

@@ -9,50 +9,50 @@ export default function AboutPage() {
     {
       name: "Parth Todankar",
       role: "Computer Science",
-      bio: "Former NASA astronaut with 15 years of space exploration experience.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "Tech Enthusiast from India",
+      image: "/parth.svg?height=300&width=300",
     },
     {
       name: "Akbarkhujaeva Diyorakhon",
       role: "Economics and Business",
-      bio: "Quantum propulsion specialist and rocket science innovator.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "International Relations expert from Uzbekistan",
+      image: "/diyora.jpg?height=300&width=300",
     },
     {
       name: "Nazik Samarova",
       role: "Food Biotechnology",
-      bio: "Astrophysicist specializing in exoplanet discovery and analysis.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "Expert in Food Biotechnology",
+      image: "/nazik.jpg?height=300&width=300",
     },
     {
       name: "Amey Shete",
       role: "Computer Science",
-      bio: "Expert in space navigation systems and mission planning.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "ML expert from India",
+      image: "/amey.jpeg?height=300&width=300",
     },
      {
       name: "Mandeep Singh",
       role: "Computer Science",
-      bio: "Expert in space navigation systems and mission planning.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "Software Developer from India",
+      image: "/mandeep.jpeg?height=300&width=300",
     },
     {
       name: "Ulukbek Kyzy Medina",
       role: "Food Biotechnology",
-      bio: "Expert in space navigation systems and mission planning.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "Expert in Food Biotechnology",
+      image: "/pinkie2.png?height=300&width=300",
     },
     {
       name: "Zokirova Dilsuz",
       role: "Economics and Business",
-      bio: "Expert in space navigation systems and mission planning.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "International Relations expert from Uzbekistan",
+      image: "/dilsuz.jpg?height=300&width=300",
     },
     {
       name: "Khushi Thakur",
       role: "Economics and Business",
-      bio: "Expert in space navigation systems and mission planning.",
-      image: "/placeholder.svg?height=300&width=300",
+      bio: "Architect from India",
+      image: "/khushi.png?height=300&width=300",
     }
   ]
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
             <div className="relative">
               <Image
                 // src="/placeholder.svg?height=400&width=600"
-                src="/group_picture.svg?height=400&width=600"
+                src="/group_picture.jpg?height=400&width=600"
                 alt="Group Picture"
                 width={600}
                 height={400}
