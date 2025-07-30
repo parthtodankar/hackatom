@@ -109,7 +109,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Meet Our Team</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              The brilliant minds behind our space exploration technology
+              The brilliant minds behind our nuclear technology
             </p>
           </div>
 
@@ -147,7 +147,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Our Values</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              The principles that guide our mission to explore the cosmos
+              The principles that guide our mission to explore the nucleus
             </p>
           </div>
 
@@ -156,7 +156,7 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="text-white text-2xl">Innovation</CardTitle>
                 <CardDescription className="text-gray-400">
-                  We constantly push the boundaries of what&apos;s possible in space technology
+                  We constantly push the boundaries of what&apos;s possible in nuclear technology
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -165,7 +165,7 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="text-white text-2xl">Accessibility</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Making space exploration available to everyone, not just the privileged few
+                  Making nuclear energy available to everyone, not just the privileged few
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -174,7 +174,7 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="text-white text-2xl">Sustainability</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Responsible exploration that preserves the cosmos for future generations
+                  Responsible exploration that preserves the nucleus for future generations
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -185,9 +185,9 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-gray-800">
         <div className="container mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Cosmos</h3>
-          <p className="text-gray-400 mb-4">Exploring the universe, one planet at a time.</p>
-          <p className="text-gray-500 text-sm">© 2024 Cosmos. All rights reserved.</p>
+          <h3 className="text-2xl font-bold mb-4">Nuclea</h3>
+          <p className="text-gray-400 mb-4">Isotopes Inspire Innovation.</p>
+          <p className="text-gray-500 text-sm">Made with  🤍  by team [Matrix]</p>
         </div>
       </footer>
     </div>
