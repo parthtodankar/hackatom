@@ -16,7 +16,7 @@ export default function AboutPage() {
       name: "Akbarkhujaeva Diyorakhon",
       role: "Economics and Business",
       bio: "International Relations expert from Uzbekistan",
-      image: "/diyora.jpg?height=300&width=300",
+      image: "/diyora2.png?height=300&width=300",
     },
     {
       name: "Nazik Samarova",
@@ -46,7 +46,7 @@ export default function AboutPage() {
       name: "Zokirova Dilsuz",
       role: "Economics and Business",
       bio: "International Relations expert from Uzbekistan",
-      image: "/dilsuz.jpg?height=300&width=300",
+      image: "/dilsuz2.png?height=300&width=300",
     },
     {
       name: "Khushi Thakur",
