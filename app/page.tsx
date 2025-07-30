@@ -2,7 +2,7 @@ import Navigation from "@/components/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Rocket, Shield, Zap, Globe, Star, CheckCircle } from "lucide-react"
+import { Rocket, Shield, Zap, Globe, Star, CheckCircle, ArrowRight } from "lucide-react"
 import Image from "next/image"
 
 export default function HomePage() {
@@ -112,6 +112,50 @@ export default function HomePage() {
               </CardHeader>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Fellowship Programme Section */}
+      <section className="py-20 px-4 bg-gradient-to-r from-purple-900/20 to-blue-900/20">
+        <div className="container mx-auto text-center">
+          <Badge className="mb-4 bg-purple-600/20 text-purple-300 border-purple-500/30">🚀 Exclusive Opportunity</Badge>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Join Our Fellowship Programme</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+            Join a distinguished community of innovators dedicated to advancing nuclear technology education. Our fellowship program provides exclusive access to cutting-edge research, expert mentorship, and practical experience developing interactive applications that bring nuclear science to life.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Rocket className="w-8 h-8 text-purple-400" />
+              </div>
+              <h3 className="text-white font-semibold mb-2">Advanced Training</h3>
+              <p className="text-gray-400 text-sm">Access to exclusive workshops and training sessions</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-blue-400" />
+              </div>
+              <h3 className="text-white font-semibold mb-2">Expert Mentorship</h3>
+              <p className="text-gray-400 text-sm">One-on-one guidance from industry leaders</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Globe className="w-8 h-8 text-green-400" />
+              </div>
+              <h3 className="text-white font-semibold mb-2">Global Network</h3>
+              <p className="text-gray-400 text-sm">Connect with fellow innovators worldwide</p>
+            </div>
+          </div>
+
+          <a href="https://forms.gle/u53qq1CojRp1sTrS9" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg">
+              Apply for Fellowship
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </a>
+
+          <p className="text-gray-400 text-sm mt-4">Limited spots available • Applications reviewed monthly</p>
         </div>
       </section>
 
