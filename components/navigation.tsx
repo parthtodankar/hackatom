@@ -21,40 +21,31 @@ export default function Navigation() {
             <Link href="/" className="text-white hover:text-purple-300 transition-colors">
               Home
             </Link>
-            <Link href="/explore" className="text-white hover:text-purple-300 transition-colors">
-              Explore
+            <Link href="/blog" className="text-white hover:text-purple-300 transition-colors">
+              Blog
             </Link>
             <Link href="/quiz" className="text-white hover:text-purple-300 transition-colors">
               Quiz
             </Link>
-            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
-              Buy
+            <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
+              About
             </Link>
-            <Link
+            <a
               href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-purple-300 transition-colors"
             >
               Chatbot
-            </Link>
-            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
-              Buy
-            </Link>
-            <Link href="/learn" className="text-white hover:text-purple-300 transition-colors">
-              Learn
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://isotope-puzzle.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-purple-300 transition-colors"
             >
               Game
-            </Link>
-            <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
-              About
-            </Link>
+            </a>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
           </div>
 
@@ -80,11 +71,11 @@ export default function Navigation() {
                 className="block px-3 py-2 text-white hover:text-purple-300"
                 onClick={() => setIsOpen(false)}
               >
-                Explore
+                Blog
               </Link>
               <Link 
                 href="/quiz" 
-                className="text-white hover:text-purple-300 transition-colors"
+                className="block px-3 py-2 text-white hover:text-purple-300"
                 onClick={() => setIsOpen(false)}
               >
                 Quiz
@@ -96,6 +87,24 @@ export default function Navigation() {
               >
                 About
               </Link>
+              <a
+                href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-white hover:text-purple-300"
+                onClick={() => setIsOpen(false)}
+              >
+                Chatbot
+              </a>
+              <a
+                href="https://isotope-puzzle.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-white hover:text-purple-300"
+                onClick={() => setIsOpen(false)}
+              >
+                Game
+              </a>
               <Button className="w-full mt-2 bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
             </div>
           </div>
