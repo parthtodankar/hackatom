@@ -17,28 +17,84 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "What is the closest star system to our Solar System?",
-    options: ["Sirius", "Alpha Centauri", "Vega", "Betelgeuse"],
+    question: "What is the average cost of a cancer scan using isotope-based imaging — compared to surgeries or biopsies?",
+    options: ["5x cheaper", "Same as surgery", "10x more expensive", "Twice as expensive"],
     correctAnswer: 1,
     explanation:
-      "Alpha Centauri is the closest star system to our Solar System, located approximately 4.37 light-years away. It's actually a triple star system consisting of Alpha Centauri A, B, and Proxima Centauri.",
+      "Isotope-based cancer scans like PET or nuclear medicine scans are generally much less expensive than invasive surgeries or biopsies. While the exact cost varies, these scans help diagnose disease earlier and often avoid the higher costs of surgery, hospital stays, or biopsies. Some studies note they can cost significantly less, up to five times cheaper, due to less invasiveness and reduced complications",
   },
   {
     id: 2,
-    question: "Which planet in our solar system has the most moons?",
-    options: ["Jupiter", "Saturn", "Uranus", "Neptune"],
-    correctAnswer: 1,
+    question: "Which sectors have quietly benefited from nuclear isotope technology—without most people noticing?",
+    options: ["Video gaming and entertainment", "Healthcare, farming, and quality control in factories", "Banking and cryptocurrency", "Automotive manufacturing"],
+    correctAnswer: 2,
     explanation:
-      "Saturn has the most moons with 146 confirmed natural satellites as of 2023. Jupiter follows closely with 95 confirmed moons. Saturn's moon count includes its spectacular ring system particles.",
+      "Nuclear isotopes are widely used beyond healthcare in agriculture (e.g., mutation breeding for better crops) and industry (e.g., radiography to detect flaws in materials). These applications improve medical diagnosis and treatment, increase crop yields in harsh climates, and ensure quality in manufacturing. These contributions often go unnoticed by the general public but are crucial in these essential sectors.",
   },
   {
     id: 3,
-    question: "What is the name of the theoretical boundary around a black hole beyond which nothing can escape?",
-    options: ["Photon Sphere", "Ergosphere", "Event Horizon", "Schwarzschild Radius"],
+    question: "Which of these technologies lets us find cracks in airplanes, oil pipes, or bridges—without ever cutting them open?",
+    options: ["Ultrasonic sonar", "Industrial isotope radiography", "Magnetic fingerprinting", "Thermal imaging"],
     correctAnswer: 2,
     explanation:
-      "The Event Horizon is the theoretical boundary around a black hole beyond which nothing, not even light, can escape. It's named after the fact that events occurring within this boundary cannot affect an outside observer.",
+      "Industrial radiography, using radioactive isotopes, allows non-destructive testing of metal structures by passing radiation through materials to reveal internal flaws like cracks or corrosion. This method safeguards infrastructure without dismantling or damaging components, unlike invasive inspection methods.",
   },
+  {
+    id: 4,
+    question: "How much can mutation-bred crops increase agricultural yield in harsh climates?",
+    options: ["5–10%", "20–40%", "No increase", "50–60%"],
+    correctAnswer: 2,
+    explanation:
+      "Mutation breeding uses radiation to induce genetic changes in crops, creating varieties that are more resilient to drought, pests, and harsh environments. This has been shown to increase yields by 20–40% in challenging climates, improving food security and farming sustainability worldwide.",
+  },
+  {
+    id: 5,
+    question: "Which technology can detect cancer before symptoms even appear—giving patients a head start?",
+    options: ["Regular health checkups", "Nuclear imaging with Technetium-99m", "Smart watches that count steps", "DNA sequencing"],
+    correctAnswer: 2,
+    explanation:
+      "Nuclear imaging, particularly with isotopes like Technetium-99m, allows detection of cancerous growths at a molecular level much earlier than physical symptoms occur. This early detection improves outcomes by enabling timely treatment and better prognoses.",
+  },
+  {
+    id: 6,
+    question: "What percentage of global food waste could be reduced with isotope-based food irradiation?",
+    options: ["1–3%", "5–10%", " Up to 25%", "Over 50%"],
+    correctAnswer: 3,
+    explanation:
+      "Isotope-based food irradiation (using gamma rays from isotopes like Cobalt-60) kills bacteria and pests, slows spoilage, and extends shelf life. This technology could reduce food waste by up to a quarter globally by preserving food quality during storage and transport.",
+  },
+  {
+    id: 7,
+    question: "Which of these quietly supports food export quality and shelf life in many countries?",
+    options: ["Vacuum sealing in shiny plastic", "Gamma irradiation using Cobalt-60", "Using perfume sprays on fruits", "Refrigerated transport"],
+    correctAnswer: 2,
+    explanation:
+      "Gamma irradiation is used extensively worldwide to sterilize food for export, ensuring it remains fresh longer and meets sanitary standards. This improves food safety, extends shelf life, and prevents contamination during shipping.",
+  },
+  {
+    id: 8,
+    question: "Which technology helps diagnose organ issues without surgery or opening the body?",
+    options: ["High-frequency stethoscopes", "Nuclear medicine scans with isotopes", "Thermal photography", "X-ray imaging alone"],
+    correctAnswer: 2,
+    explanation:
+      "Nuclear medicine scans use radioactive isotopes to create functional images of organs, detecting abnormalities like tumors or blockages without invasive procedures, unlike biopsies or surgeries.",
+  },
+  {
+    id: 9,
+    question: "How many countries have adopted nuclear medicine technology for disease diagnosis and treatment?",
+    options: ["50", " 120+", "20", "80"],
+    correctAnswer: 2,
+    explanation:
+      "Over 120 countries have integrated nuclear medicine into healthcare, using isotope-based technologies for diagnostics and therapies, reflecting its global acceptance and benefit in managing diseases like cancer and heart conditions.",
+  },
+  {
+    id: 10,
+    question: "Which technology is used to sterilize millions of medical tools—without heat, chemicals, or water?",
+    options: ["UV light sanitation", "Gamma irradiation from isotopes", "Hydrogen peroxide sprays", "Autoclave sterilization"],
+    correctAnswer: 2,
+    explanation:
+      "Gamma irradiation sterilizes medical instruments at scale using radioactive isotopes (commonly Cobalt-60), effectively killing pathogens without thermal or chemical methods, preserving tool integrity and safety in healthcare.",
+  }
 ]
 
 export default function AdultQuiz() {
