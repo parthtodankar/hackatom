@@ -110,7 +110,7 @@ export default function QuizPage() {
           </div>
           <div className="text-center">
             <div className="text-4xl mb-2">🪐</div>
-            <h3 className="text-white font-semibold mb-2">Saturn's Density</h3>
+            <h3 className="text-white font-semibold mb-2">Saturn&apos;s Density</h3>
             <p className="text-gray-400 text-sm">Saturn is less dense than water and would float!</p>
           </div>
         </div>
