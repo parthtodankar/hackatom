@@ -27,6 +27,59 @@ export default function Navigation() {
             <Link href="/quiz" className="text-white hover:text-purple-300 transition-colors">
               Quiz
             </Link>
+            <Link href="/buy" className="text-white hover:text-purple-300 transition-colors">
+              Buy
+            </Link>
+            
+            <a
+              href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-300 transition-colors"
+            >
+              Chatbot
+            </a>
+            <a
+              href="https://isotope-puzzle.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-300 transition-colors"
+            >
+              Game
+            </a>
+            <a
+              href="https://"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-300 transition-colors"
+            >
+              Visualize
+            </a>
+            <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
+              About
+            </Link>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
+          </div>
+
+          {/* Mobile menu button */}
+          <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <div className="md:hidden bg-black/90 backdrop-blur-md">
+            <div className="px-2 pt-2 pb-3 space-y-1">
+              <Link href="/" className="text-white hover:text-purple-300 transition-colors">
+              Home
+            </Link>
+            <Link href="/blog" className="text-white hover:text-purple-300 transition-colors">
+              Blog
+            </Link>
+            <Link href="/quiz" className="text-white hover:text-purple-300 transition-colors">
+              Quiz
+            </Link>
             <Link href="/about" className="text-white hover:text-purple-300 transition-colors">
               About
             </Link>
@@ -47,65 +100,6 @@ export default function Navigation() {
               Game
             </a>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
-          </div>
-
-          {/* Mobile menu button */}
-          <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden bg-black/90 backdrop-blur-md">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link
-                href="/"
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                Home
-              </Link>
-              <Link
-                href="/blog"
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                Blog
-              </Link>
-              <Link 
-                href="/quiz" 
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                Quiz
-              </Link>
-              <Link
-                href="/about"
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                About
-              </Link>
-              <a
-                href="https://console.dialogflow.com/api-client/demo/embedded/429ce972-e535-41ec-a1ef-d8523463a1f2"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                Chatbot
-              </a>
-              <a
-                href="https://isotope-puzzle.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block px-3 py-2 text-white hover:text-purple-300"
-                onClick={() => setIsOpen(false)}
-              >
-                Game
-              </a>
-              <Button className="w-full mt-2 bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
             </div>
           </div>
         )}
