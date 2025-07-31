@@ -1,0 +1,158 @@
+NUCLEA APPLICATION ARCHITECTURE
+================================
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              NUCLEA PLATFORM                                   │
+│                    Nuclear Technology Education Application                     │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              FRONTEND LAYER                                   │
+│                              Next.js 14 + React                               │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                    │
+                    ┌───────────────┼───────────────┐
+                    ▼               ▼               ▼
+┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+│   NAVIGATION    │ │   LAYOUT        │ │   UI COMPONENTS │
+│                 │ │                 │ │                 │
+│ • Main Nav      │ │ • Root Layout   │ │ • Button        │
+│ • Mobile Menu   │ │ • Metadata      │ │ • Card          │
+│ • Links         │ │ • Styling       │ │ • Badge         │
+│ • Responsive    │ │ • Global CSS    │ │ • Input         │
+└─────────────────┘ └─────────────────┘ └─────────────────┘
+                    │               │               │
+                    ▼               ▼               ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              PAGE STRUCTURE                                   │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                    │               │               │
+        ┌───────────┼───────────────┼───────────────┼───────────┐
+        ▼           ▼               ▼               ▼           ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ HOME PAGE   │ │ ABOUT PAGE  │ │ BLOG PAGE   │ │ QUIZ PAGE   │ │ BUY PAGE    │
+│             │ │             │ │             │ │             │ │             │
+│ • Hero      │ │ • Team Info │ │ • Articles  │ │ • Quiz Types│ │ • Products  │
+│ • Features  │ │ • Mission   │ │ • Categories│ │ • Kids Quiz │ │ • Categories│
+│ • Fellowship│ │ • Values    │ │ • Search    │ │ • Adult Quiz│ │ • Search    │
+│ • Pricing   │ │ • Story     │ │ • Filtering │ │ • Results   │ │ • Filter    │
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+        │               │               │               │               │
+        ▼               ▼               ▼               ▼               ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              QUIZ COMPONENTS                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                    │               │
+        ┌───────────┼───────────────┐
+        ▼           ▼               ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ KIDS QUIZ   │ │ ADULT QUIZ  │ │ QUIZ LOGIC  │
+│             │ │             │ │             │
+│ • True/False│ │ • Multiple  │ │ • State Mgmt│
+│ • 10 Q's    │ │   Choice    │ │ • Scoring   │
+│ • Simple UI │ │ • 10 Q's    │ │ • Progress  │
+│ • Fun Facts │ │ • Advanced  │ │ • Results   │
+└─────────────┘ └─────────────┘ └─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              EXTERNAL INTEGRATIONS                            │
+└─────────────────────────────────────────────────────────────────────────────────┘
+        │               │               │               │
+        ▼               ▼               ▼               ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ DIALOGFLOW  │ │ ISOTOPE GAME│ │ VISUALIZATION│ │ FELLOWSHIP  │
+│             │ │             │ │             │ │             │
+│ • AI Chat   │ │ • Puzzle    │ │ • Charts    │ │ • Forms     │
+│ • Nuclear Q&A│ │ • Netlify   │ │ • Data      │ │ • Apps      │
+│ • Embedded  │ │ • Interactive│ │ • Trends    │ │ • Training  │
+│ • Responsive│ │ • Educational│ │ • Analytics │ │ • Mentorship│
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              DATA FLOW                                         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                    │               │               │
+        ┌───────────┼───────────────┼───────────────┼───────────┐
+        ▼           ▼               ▼               ▼           ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ TEAM DATA   │ │ BLOG DATA   │ │ PRODUCT DATA│ │ QUIZ DATA   │ │ USER DATA   │
+│             │ │             │ │             │ │             │ │             │
+│ • Members   │ │ • Articles  │ │ • Products  │ │ • Questions │ │ • Progress  │
+│ • Roles     │ │ • Categories│ │ • Categories│ │ • Answers   │ │ • Scores    │
+│ • Images    │ │ • Authors   │ │ • Pricing   │ │ • Difficulty│ │ • History   │
+│ • Bios      │ │ • Dates     │ │ • Features  │ │ • Explanations│ │ • Preferences│
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              TECHNICAL STACK                                   │
+└─────────────────────────────────────────────────────────────────────────────────┘
+        │               │               │               │
+        ▼               ▼               ▼               ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ FRAMEWORK   │ │ STYLING     │ │ ICONS       │ │ DEPLOYMENT  │
+│             │ │             │ │             │ │             │
+│ • Next.js 14│ │ • Tailwind  │ │ • Lucide    │ │ • Vercel    │
+│ • React 18  │ │ • Custom CSS│ │ • Custom    │ │ • Static    │
+│ • TypeScript│ │ • Responsive│ │ • SVG       │ │ • CDN       │
+│ • App Router│ │ • Dark Theme│ │ • Animations│ │ • Performance│
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              USER JOURNEY                                     │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                    │               │               │
+        ┌───────────┼───────────────┼───────────────┼───────────┐
+        ▼           ▼               ▼               ▼           ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ LANDING     │ │ EXPLORATION │ │ ENGAGEMENT  │ │ CONVERSION  │ │ RETENTION   │
+│             │ │             │ │             │ │             │ │             │
+│ • Hero      │ │ • Blog Read │ │ • Quiz Take │ │ • Product Buy│ │ • Return    │
+│ • Features  │ │ • Product   │ │ • Chatbot   │ │ • Fellowship│ │ • Share     │
+│ • Navigation│ │ • About     │ │ • Game      │ │ • Apply     │ │ • Feedback  │
+│ • CTA       │ │ • Search    │ │ • Social    │ │ • Contact   │ │ • Learn More│
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              SECURITY & PERFORMANCE                            │
+└─────────────────────────────────────────────────────────────────────────────────┘
+        │               │               │               │
+        ▼               ▼               ▼               ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ SECURITY    │ │ PERFORMANCE │ │ SEO         │ │ ACCESSIBILITY│
+│             │ │             │ │             │ │             │
+│ • HTTPS     │ │ • Image Opt │ │ • Meta Tags │ │ • ARIA      │
+│ • CSP       │ │ • Code Split│ │ • Sitemap   │ │ • Keyboard  │
+│ • XSS Prot  │ │ • Lazy Load │ │ • Open Graph│ │ • Screen    │
+│ • Validation│ │ • Caching   │ │ • Schema    │ │ • Contrast  │
+└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+
+KEY FEATURES:
+=============
+• Educational Content (Blog, Articles)
+• Interactive Learning (Quizzes, Games)
+• AI-Powered Chat (Dialogflow Integration)
+• Product Showcase (E-commerce Style)
+• Team Information (About Page)
+• Fellowship Program (Application System)
+• Responsive Design (Mobile-First)
+• Modern Tech Stack (Next.js, React, TypeScript)
+• Performance Optimized (Image Opt, Code Split)
+• SEO Friendly (Meta Tags, Sitemap)
+• Accessibility (ARIA, Keyboard Nav)
+• External Integrations (Dialogflow, Netlify, Google Forms)
+
+TECHNICAL HIGHLIGHTS:
+=====================
+• Next.js 14 with App Router
+• React 18 with TypeScript
+• Tailwind CSS for Styling
+• Lucide React for Icons
+• Vercel for Deployment
+• Dialogflow for AI Chat
+• Netlify for Game Hosting
+• Google Forms for Applications
+• Responsive Design
+• Performance Optimization
+• SEO Optimization
+• Accessibility Compliance 

@@ -21,7 +21,7 @@ export default function AboutPage() {
     {
       name: "Nazik Samarova",
       role: "Food Biotechnology",
-      bio: "Expert in Food Biotechnology",
+      bio: "Expert in Food Biotechnology from Kyrgyzstan",
       image: "/nazik.jpg?height=300&width=300",
     },
     {
@@ -39,7 +39,7 @@ export default function AboutPage() {
     {
       name: "Ulukbek Kyzy Medina",
       role: "Food Biotechnology",
-      bio: "Expert in Food Biotechnology",
+      bio: "Expert in Food Biotechnology from Kyrgyzstan",
       image: "/pinkie2.png?height=300&width=300",
     },
     {
