@@ -48,7 +48,7 @@ export default function Navigation() {
               Game
             </a>
             <a
-              href="https://"
+              href="https://data-visualization-hackatom.streamlit.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-purple-300 transition-colors"
