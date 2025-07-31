@@ -15,7 +15,7 @@ export default function BlogPage() {
       category: "Medicine",
       author: "Dr. Sarah Chen",
       date: "2024-01-15",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/medical-isotopes.png?height=300&width=400",
     },
     {
       title: "Agricultural Applications: Feeding the Future",
@@ -24,7 +24,7 @@ export default function BlogPage() {
       category: "Agriculture",
       author: "Dr. Aisha Patel",
       date: "2024-01-12",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/agriculture.png?height=300&width=400",
     },
     {
       title: "Industrial Isotopes: Powering Modern Manufacturing",
@@ -33,7 +33,7 @@ export default function BlogPage() {
       category: "Industry",
       author: "Marcus Rodriguez",
       date: "2024-01-10",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/industrial.png?height=300&width=400",
     },
     {
       title: "Space Technology: Nuclear Power Beyond Earth",
@@ -42,7 +42,7 @@ export default function BlogPage() {
       category: "Space Technology",
       author: "James Kim",
       date: "2024-01-08",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/spaceblog.png?height=300&width=400",
     },
     {
       title: "Economic Impact: The Isotope Market Analysis",
@@ -51,7 +51,7 @@ export default function BlogPage() {
       category: "Economics",
       author: "Dr. Elena Volkov",
       date: "2024-01-05",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/isotope-market.png?height=300&width=400",
     },
     {
       title: "Environmental Applications: Green Nuclear Solutions",
@@ -60,7 +60,7 @@ export default function BlogPage() {
       category: "Environment",
       author: "Dr. Michael Zhang",
       date: "2024-01-03",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/environment.png?height=300&width=400",
     },
   ]
 
