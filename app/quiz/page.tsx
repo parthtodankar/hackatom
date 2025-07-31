@@ -120,7 +120,7 @@ export default function QuizPage() {
                 {currentQuiz === "kids" ? "Kids Quiz" : "Adult Quiz"}
               </Badge>
               <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
-                {currentQuiz === "kids" ? "Space Quiz for Kids" : "Advanced Space Quiz"}
+                {currentQuiz === "kids" ? "Quiz for Kids" : "Advanced Quiz"}
               </h1>
             </div>
 
